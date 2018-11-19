@@ -1,0 +1,39 @@
+body {
+    min-height: 75rem;
+    color: #eee;
+    background: #2e3536;
+}
+
+a, a:active {
+    color: #ee5f5b;
+}
+
+a:hover {
+    color: #f7120c;
+}
+
+a:visited {
+    color: #c75b58;
+}
+
+a.btn {
+    color: #eee;
+}
+
+.segment {
+    padding: 2em 0;        
+}
+
+.segment-cover {
+    color: #EEE;
+}
+
+.CodeMirror {
+    font-size: 120%;
+}
+
+#output {
+    width: 100%;
+    background-color: #2525258c;
+    color: #eee;
+}

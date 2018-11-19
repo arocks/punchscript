@@ -1,0 +1,8 @@
+(jbuild_version 1)
+
+(executable
+ ((name punch)
+  (libraries (punchlib))
+;;  (preprocess (pps (js_of_ocaml-ppx)))
+  (ocamlc_flags (:standard -g))
+))

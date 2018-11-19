@@ -1,0 +1,17 @@
+(jbuild_version 1)
+
+(ocamllex (lexer))
+
+(menhir (
+  (modules (parser))
+  (flags ("-la" "2"))
+  ;; Tracing is useful for debugging
+  ; (flags ("-la" "2" "--trace"))
+))
+
+(library
+ ((name punchlib)
+;;  (libraries (js_of_ocaml))
+;;  (preprocess (pps (js_of_ocaml-ppx)))
+;;  (ocamlc_flags (:standard -g))
+))

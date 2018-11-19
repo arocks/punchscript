@@ -1,0 +1,2 @@
+#!/bin/sh
+cp ../_build/default/js/jsbridge.bc.js js/punch.bc.js

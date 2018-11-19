@@ -1,0 +1,3 @@
+#!/bin/sh
+# Run this script outside Docker
+python3 -m http.server

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Punchscript Language by Arun Ravindran</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Punchscript Language - Code with Rajnikanth Punch dialogues.">
+    <meta name="author" content="Arun Ravindran">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@arocks">
+    <meta name="twitter:creator" content="@arocks" />
+    <meta property="og:url" content="/punchscriptTODO/" />
+    <meta property="og:title" content="Punchscript Language" />
+    <meta property="og:description" content="Code with Rajnikanth Punch dialogues" />
+    <meta property="og:image" content="https://arunrocks.com/punchscriptTODO/punchscript-thumb.png" />
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/codemirror.css">
+    <link rel="stylesheet" href="css/theme/lesser-dark.css">
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    
+    <main role="main">
+
+      
+      <!-- Try -->
+      <section class="segment segment-try">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <a id="tryit" name="tryit"></a>
+              <h2 class="text-center">Try</h2>
+	      <textarea id="input" rows="10" cols="60">
+MEHHH! IPPO PAAR RAMANUJAN NUMBER 
+10 SOLRAN a SEIRAN
+9 SOLRAN b SEIRAN
+a * a * a + b * b * b SOLRAN r SEIRAN
+IDHU EPADI IRUKU r</textarea> 
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <form>
+                <div class="form-row">
+                  <div class="col">
+                    <select id="inputExamples" class="form-control">
+                      <option selected>Examples...</option>
+                    </select>
+                  </div>
+                  <div class="col text-right">
+                    <a id="runbutton" href="#" class="btn btn-primary my-2 my-sm-0" role="button" onclick="go()" title="Run the code above">Run</a><br>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row" id="output-area">
+            <div class="col-sm">
+              <h3 class="text-center">Output</h3>
+	      <div id="errorarea" style="color:red; display:none;">
+	        Errors:
+	      </div>
+	      <textarea id="output" rows="10" cols="60" readonly>
+	      </textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lib/codemirror.js"></script>
+    <script src="js/lib/mode/punchscript/punchscript.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
