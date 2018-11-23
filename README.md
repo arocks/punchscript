@@ -1,8 +1,10 @@
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/arocks/punchscript/master/web/img/logo-full.png">
+<img width="210" height="298" src="https://raw.githubusercontent.com/arocks/punchscript/master/web/img/logo-full.png">
 </p>
 
-PunchScript - A language made up of Rajinikanth punch dialogues.
+# PunchScript
+
+An imperative language made up of Rajinikanth punch dialogues. It currently supports only Integer data types.
 
 Here is how Fizz Buzz in Punchscript looks like:
 
