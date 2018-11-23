@@ -2,7 +2,7 @@
 <img width="210" height="298" src="https://raw.githubusercontent.com/arocks/punchscript/master/web/img/logo-full.png">
 </p>
 
-# PunchScript
+# Punchscript
 
 An imperative language made up of Rajinikanth punch dialogues. It currently supports only Integer data types.
 
