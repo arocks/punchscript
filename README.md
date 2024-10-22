@@ -12,6 +12,10 @@ Here is how Fizz Buzz in Punchscript looks like:
 
 More examples are in the tests directory.
 
+Try it here: [Online Interpreter](https://arunrocks.com/punchscript/) 
+
+Read more: [Blog post](https://arunrocks.com/punchscript-rajinikanth/) | [Language Specs](https://github.com/arocks/punchscript-specs)
+
 ## Installation
 
 Latest stable version of OCaml (developed in version 4.06.0) should be obtained from opam.
